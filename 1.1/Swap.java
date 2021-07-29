@@ -9,7 +9,7 @@ public class Swap {
         System.out.println("Enter second number ");
         int b= sc.nextInt();
 
-        a=a+b;
+        a=a+b; 
         b=a-b;
         a=a-b;
 

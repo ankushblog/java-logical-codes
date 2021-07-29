@@ -12,8 +12,9 @@ public class SelectionSort {
 
         }
 
-        for (int i = 0; i < a.length; i++) {
-            int minIndex = i;
+        for (int i = 0; i < a.length; i++) 
+        {
+            int minIndex = i;                                   //find the minimum number and replace it with initial position 
             for (int j = i + 1; j < a.length; j++) {
                 if (a[j] < a[minIndex]) {
                     minIndex = j;

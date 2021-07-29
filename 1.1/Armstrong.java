@@ -1,7 +1,9 @@
 import java.util.*;
 
 class Armstrong {
-    public static void main(String args[]) {
+    public static void main(String args[]) { // armstrong number is depend on the power.
+                                             // 153, 3 digits so here power is 3
+                                             // 1634, 4 digits so here power is 4
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the number");
         int a = sc.nextInt();
@@ -16,12 +18,10 @@ class Armstrong {
             b = b / 10;
         }
 
-        if(total==a)
-        {
+        if (total == a) {
             System.out.println("the number is armstrong");
 
-        }
-        else{
+        } else {
             System.out.println("the number is not armstrong");
         }
     }

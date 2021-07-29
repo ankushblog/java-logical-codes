@@ -15,10 +15,10 @@ class InsertionSort {
         }
 
         for (int i = 1; i < a.length; i++) {
-            temp = a[i];
-            int j = i;
+            temp = a[i];        40
+            int j = i;      // 2
 
-            while (j > 0 && a[j - 1] > temp) {
+            while (j > 0 && a[j - 1] > temp) {      //10 20 40 30 12
                 a[j] = a[j - 1];
                 j = j - 1;
             }
